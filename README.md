@@ -60,3 +60,10 @@ Notes
 
 •	Assurez-vous que votre Arduino est bien branché et que le capteur DHT11 fonctionne correctement.
 •	Si vous rencontrez des erreurs de connexion avec MariaDB, vérifiez les identifiants et que le serveur MariaDB est bien accessible.
+
+
+
+Travail réalisé par :
+• Romain Pecriaux
+• Matheo Merlin
+• Auguste Buriez
