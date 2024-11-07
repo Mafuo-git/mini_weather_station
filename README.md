@@ -43,12 +43,11 @@ Modifiez ces valeurs avec vos informations MariaDB pour que le programme puisse 
 3. Lancement des scripts Python
 
 Pour lancer le programme, suivez ces étapes :
-	1.	Démarrez app.py : Ce script initialise la connexion à la base de données et prépare l’application pour recevoir des données. Pour cela, ouvrez un terminal, placez-vous dans le dossier du projet et exécutez la commande suivante :
+1.	Démarrez app.py : Ce script initialise la connexion à la base de données et prépare l’application pour recevoir des données. Pour cela, ouvrez un terminal, placez-vous dans le dossier du projet et exécutez la commande suivante :
 
 python3 app.py
 
-
-	2.	Lancez donnees_arduino.py en parallèle : Ce script récupère les données de température et d’humidité envoyées par l’Arduino et les transmet au programme principal. Ouvrez un autre terminal dans le même dossier, et exécutez :
+2.	Lancez donnees_arduino.py en parallèle : Ce script récupère les données de température et d’humidité envoyées par l’Arduino et les transmet au programme principal. Ouvrez un autre terminal dans le même dossier, et exécutez :
 
 python3 donnees_arduino.py
 
@@ -59,5 +58,5 @@ Ce script enverra automatiquement les relevés de température et d’humidité 
 
 Notes
 
-	•	Assurez-vous que votre Arduino est bien branché et que le capteur DHT11 fonctionne correctement.
-	•	Si vous rencontrez des erreurs de connexion avec MariaDB, vérifiez les identifiants et que le serveur MariaDB est bien accessible.
+•	Assurez-vous que votre Arduino est bien branché et que le capteur DHT11 fonctionne correctement.
+•	Si vous rencontrez des erreurs de connexion avec MariaDB, vérifiez les identifiants et que le serveur MariaDB est bien accessible.
