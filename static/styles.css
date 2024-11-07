@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#current-data {
+    font-size: 1.5em;
+}
+
+.charts-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+canvas {
+    max-width: 45%;
+    height: auto;
+}
+
+.map-container {
+    width: 90%;
+    margin-top: 20px;
+    height: 500px;
+}
+
+.map-container iframe, .mapcontainer .folium-map {
+    width: 100%;
+    height: 500px;
+    border : none;
+
+}
+
+
+.footer {
+    font-size: 0.9em;
+    color: gray;
+    margin-top: 20px;
+}

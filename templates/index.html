@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Sensor Dashboard</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script>
+    <script src="/static/scripts.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Données actuelles :</h1>
+        <div id="current-data">
+            <p>Température : <span id="current-temperature">-</span> °C</p>
+            <p>Humidité : <span id="current-humidity">-</span> %</p>
+        </div>
+    </div>
+    <div class="charts-container">
+        <canvas id="temperatureChart"></canvas>
+        <canvas id="humidityChart"></canvas>
+    </div>
+    <div class="footer">
+        <p>Dernière mise à jour : <span id="last-update">-</span></p>
+    </div>
+    <div class="map-container">
+        <h2>Localisation actuelle :</h2>
+        <!-- Inclusion de la carte Folium -->
+        {% include 'map.html' %}
+    </div>
+</body>
+</html>
