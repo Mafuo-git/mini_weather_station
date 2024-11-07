@@ -7,8 +7,8 @@ Ce fichier explique comment lancer le projet et récupérer les données de temp
 
 Prérequis
 
-	1.	Arduino : Assurez-vous d’avoir un Arduino connecté, avec un capteur DHT11 branché sur le pin numérique 2.
-	2.	Base de données MariaDB : Un serveur MariaDB doit être configuré et accessible. Vous aurez besoin des identifiants (hôte, utilisateur, mot de passe, nom de base de données) pour vous connecter.
+1. Arduino : Assurez-vous d’avoir un Arduino connecté, avec un capteur DHT11 branché sur le pin numérique 2.
+2. Base de données MariaDB : Un serveur MariaDB doit être configuré et accessible. Vous aurez besoin des identifiants (hôte, utilisateur, mot de passe, nom de base de données) pour vous connecter.
 
 
 
